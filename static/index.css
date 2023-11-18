@@ -1,0 +1,193 @@
+@import url("https://fonts.googleapis.com/css?family=Fertigo pro|Ubuntu|Audiowide ");
+
+* {
+    font-family: "Ubuntu", sans-serif;
+}
+*::selection{
+    background-color: #353431;
+    color:#b49275;
+}
+
+/* navbar */
+.navbar-brand {
+    letter-spacing: 8px;
+    font-family: "Audiowide", monospace;
+}
+
+.nav-link {
+    font-family: "Audiowide", monospace;
+}
+
+.offcanvas-title {
+    font-family: "Audiowide", monospace;
+}
+
+/* section */
+section {
+    background-color: white;
+    height: 600px;
+    color: #05161a;
+}
+
+.id_container {
+    margin-bottom: 80px;
+}
+
+.id_col {
+    height: 400px;
+    width: 300px;
+    margin-left: 165px !important;
+}
+
+.id_img img {
+    height: 150px;
+    width: 190px;
+    margin: 40px 0px 20px 0px;
+    mix-blend-mode: multiply;
+}
+
+.id_icon {
+    background-color: rgb(182, 181, 181) !important;
+    border-radius: 5px;
+    color: black;
+    margin-top: 70px;
+}
+
+.namaste_col {
+    margin: 90px 0px;
+    margin-right: 100px;
+}
+
+.namaste_col h1 {
+    font-size: 55px;
+    margin: 25px 0px;
+    font-weight: bolder;
+    letter-spacing: 8px;
+    font-family: "Audiowide", monospace;
+}
+
+.namaste_col h2 {
+    letter-spacing: 8px;
+    font-family: "Audiowide", monospace;
+    font-weight: 600;
+}
+
+.namaste_col h5 {
+    margin: 20px 0px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.namaste_col p {
+    font-size: 20px;
+    text-align: justify;
+}
+
+/* footer */
+
+.socal_icon a {
+    color: #05161a;
+    margin: 0px 10px;
+}
+
+/* meadia queries */
+@media screen and (max-width: 991px) {
+
+    /* navbar */
+    .navbar {
+        background-color: #072e33 !important;
+    }
+
+    .navbar-text,
+    .navbar-brand,
+    .nav-link {
+        color: white !important;
+    }
+
+    .navbar-brand {
+        letter-spacing: 4px;
+    }
+
+    .navbar-toggler {
+        font-size: 10px;
+    }
+
+    /* sidebar */
+    .offcanvas {
+        background-color: #072e33;
+        color: white;
+    }
+
+    .offcanvas-title {
+        letter-spacing: 3px;
+    }
+
+    .offcanvas-body {
+        border-top: 2px solid white;
+    }
+
+    .offcanvas-body li a {
+        color: white;
+    }
+
+    /* section */
+    section {
+        background: #212121;
+        color: white;
+    }
+
+    .id_col {
+        background-color: #072e33 !important;
+        height: 340px;
+        width: 250px;
+        margin-left: 35px !important;
+    }
+
+    .id_img img {
+        height: 150px;
+        width: 190px;
+        margin: 5px 0px 20px 0px;
+        mix-blend-mode: multiply;
+    }
+
+    .id_icon {
+        background-color: white;
+        color: black;
+        margin-top: 40px;
+    }
+
+    .namaste_col {
+        margin: 30px auto;
+        padding: 10px;
+    }
+
+    .namaste_col h1 {
+        font-size: 40px;
+        margin: 25px 0px;
+        font-weight: bolder;
+        letter-spacing: 4px;
+    }
+    .namaste_col h2{
+        letter-spacing: 2px;
+    }
+    .namaste_col h5{
+        letter-spacing: 1px;
+        display: none;
+    }
+    .namaste_col p {
+        font-size: 15px;
+        text-align: justify;
+        padding-right: 8px;
+    }
+
+    /* footer */
+    .footer {
+        background-color: #072e33 !important;
+        color: white;
+    }
+
+    .socal_icon a {
+        color: white;
+    }
+
+}

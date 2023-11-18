@@ -1,0 +1,184 @@
+@import url("https://fonts.googleapis.com/css?family=Fertigo pro|Ubuntu|Audiowide ");
+* {
+    font-family: "Ubuntu", sans-serif;
+}
+*::selection{
+    background-color: #353431;
+    color:#b49275;
+}
+
+/* navbar */
+.navbar-brand {
+    letter-spacing: 8px;
+    font-family: "Audiowide", monospace;
+}
+.nav-link{
+    font-family: "Audiowide", monospace;
+}
+.offcanvas-title{
+    font-family: "Audiowide", monospace;
+}
+
+
+/* section_1 */
+.section_1 {
+    height: 4250px;
+}
+
+.section_1 h1 {
+    letter-spacing: 4px;
+    border-bottom: 2px solid black;
+    padding-bottom: 10px;
+    font-family: "Audiowide", monospace;
+}
+
+.lms_p{
+    padding: 20px;
+    text-align: justify;
+}
+details{
+    background-color: #f2f2f2;
+    margin: 20px;
+    border-radius: 15px;
+    padding: 20px;
+}
+details summary{
+    font-size: 25px;
+}
+.details_p{
+    font-size: 20px;
+    padding: 20px;
+}
+.details_p ul li {
+    padding: 10px 0px;
+}
+.lms_ss{
+    background-color: #f2f2f2;
+    margin: 20px;
+    border-radius: 15px;
+    padding: 20px;
+}
+.lms_ss h3{
+    font-size: 35px ;
+    font-weight: bolder;
+    margin-top: 20px;
+}
+.section_2_icon {
+    margin: 80px 120px;
+    padding: 60px 270px 60px 270px;
+}
+.section_2_icon img{
+    height: 270px;
+    width: 470px;
+}
+
+
+/* footer */
+.socal_icon a {
+    color: #05161a;
+    margin: 0px 10px;
+}
+
+/* meadia queries */
+@media screen and (max-width: 991px) {
+
+    /* navbar */
+    .navbar {
+        background-color: #072e33 !important;
+    }
+
+    .navbar-text,
+    .navbar-brand,
+    .nav-link {
+        color: white !important;
+    }
+
+    .navbar-brand {
+        letter-spacing: 4px;
+    }
+
+    .navbar-toggler {
+        font-size: 10px;
+    }
+
+    /* sidebar */
+    .offcanvas {
+        background-color: #072e33;
+        color: white;
+    }
+
+    .offcanvas-title {
+        letter-spacing: 3px;
+    }
+
+    .offcanvas-body {
+        border-top: 2px solid white;
+    }
+
+    .offcanvas-body li a {
+        color: white;
+    }
+
+    /* section_1 */
+    .section_1 {
+        background-color: #072e33 !important;
+        height: 600px;
+        color: whitesmoke !important;
+        border-radius: 20px;
+        text-align: center;
+        margin: 30px 0px;
+    }
+
+    .section_1 h1 {
+        font-weight: lighter;
+        padding-bottom: 10px;
+        border-bottom: 1px solid white;
+    }
+
+    .lms_p{
+        padding: 20px;
+        text-align: justify;
+    }
+    details{
+        background-color: #f2f2f2;
+        margin: 20px;
+        border-radius: 15px;
+        padding: 20px;
+    }
+    details summary{
+        font-size: 25px;
+    }
+    .details_p{
+        font-size: 20px;
+        padding: 20px;
+    }
+    .details_p ul li {
+        padding: 10px 0px;
+    }
+    .lms_ss{
+        background-color: #f2f2f2;
+        margin: 20px;
+        border-radius: 15px;
+        padding: 20px;
+    }
+    .lms_ss h3{
+        font-size: 35px ;
+        font-weight: bolder;
+        margin-top: 20px;
+    }
+    .section_1_icon{
+        margin-top: -20px;
+        margin-left: 0px;
+    }
+
+    /* footer */
+    .footer {
+        background-color: #072e33 !important;
+        color: white;
+    }
+
+    .socal_icon a {
+        color: white;
+    }
+
+}

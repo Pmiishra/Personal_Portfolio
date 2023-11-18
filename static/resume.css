@@ -1,0 +1,284 @@
+@import url("https://fonts.googleapis.com/css?family=Fertigo pro|Ubuntu|Audiowide ");
+
+* {
+    font-family: "Ubuntu", sans-serif;
+}
+*::selection{
+    background-color: #353431;
+    color:#b49275;
+}
+
+/* navbar */
+.navbar-brand {
+    letter-spacing: 8px;
+    font-family: "Audiowide", monospace;
+}
+
+.nav-link {
+    font-family: "Audiowide", monospace;
+}
+
+.offcanvas-title {
+    font-family: "Audiowide", monospace;
+}
+
+/* download row */
+.row_download {
+    margin: 30px 0px;
+    background-color: #212121 !important;
+    color: white;
+    padding: 15px 150px;
+}
+
+.row_download h2 {
+    font-size: 25px;
+    letter-spacing: 8px;
+    font-family: "Audiowide", monospace;
+}
+
+.row_download i {
+    padding-top: 5px;
+    font-size: 25px;
+    color: white;
+}
+
+
+/* section_1 */
+.section_1 {
+    height: 650px;
+}
+
+.section_1 i {
+    color: gray !important;
+    font-size: 20px;
+}
+
+.section_1 h1 {
+    letter-spacing: 4px;
+    border-bottom: 2px solid black;
+    padding-bottom: 10px;
+    font-family: "Audiowide", monospace !important;
+}
+
+/* section_2 */
+.section_2 {
+    height: 670px;
+}
+
+.section_2 h1 {
+    letter-spacing: 4px;
+    border-bottom: 2px solid black;
+    padding-bottom: 10px;
+    font-family: "Audiowide", monospace;
+}
+
+.section_2 i {
+    font-size: 80px;
+}
+
+.section_2_icon {
+    margin: 30px 42px;
+    padding: 10px;
+}
+
+/* section_3 */
+.section_3 {
+    height: 730px;
+}
+
+.section_3 h1 {
+    letter-spacing: 4px;
+    border-bottom: 2px solid black;
+    padding-bottom: 10px;
+    font-family: "Audiowide", monospace;
+}
+
+.section_3 i {
+    font-size: 20px;
+    color: gray !important;
+}
+
+.section_3 .bi {
+    font-size: 16px;
+}
+
+/* section_4 */
+.section_4 {
+    height: 560px;
+}
+
+.section_4 h1 {
+    letter-spacing: 4px;
+    border-bottom: 2px solid black;
+    padding-bottom: 10px;
+    font-family: "Audiowide", monospace;
+}
+
+.section_4 i {
+    font-size: 20px;
+    color: gray !important;
+}
+
+
+/* footer */
+.socal_icon a {
+    color: #05161a;
+    margin: 0px 10px;
+}
+
+/* meadia queries */
+@media screen and (max-width: 991px) {
+
+    /* navbar */
+    .navbar {
+        background-color: #072e33 !important;
+    }
+
+    .navbar-text,
+    .navbar-brand,
+    .nav-link {
+        color: white !important;
+    }
+
+    .navbar-brand {
+        letter-spacing: 4px;
+    }
+
+    .navbar-toggler {
+        font-size: 10px;
+    }
+
+    /* sidebar */
+    .offcanvas {
+        background-color: #072e33;
+        color: white;
+    }
+
+    .offcanvas-title {
+        letter-spacing: 3px;
+    }
+
+    .offcanvas-body {
+        border-top: 2px solid white;
+    }
+
+    .offcanvas-body li a {
+        color: white;
+    }
+
+    /* download row */
+    .row_download {
+        margin: 30px 10px;
+        border-radius: 10px;
+        background-color: gray !important;
+        color: black;
+        padding: 15px 20px;
+    }
+
+    .row_download h2 {
+        padding-top: 6px;
+        font-size: 20px;
+        letter-spacing: 2px;
+        text-align: start;
+        font-weight: bolder;
+    }
+
+    .row_download i {
+        padding-top: 5px;
+        padding-left: 20px;
+        font-size: 22px;
+        color: black;
+    }
+
+
+    /* section_1 */
+    .section_1 {
+        background-color: #072e33 !important;
+        height: 680px;
+        color: whitesmoke !important;
+        border-radius: 20px;
+        text-align: center;
+        margin: 30px 0px;
+    }
+
+    .section_1 h1 {
+        font-weight: ligher;
+        padding-bottom: 10px;
+        border-bottom: 1px solid white;
+    }
+
+    .bi-book-fill {
+        color: white !important;
+        font-size: 20px !important;
+    }
+
+    /* section_2 */
+    .section_2 {
+        background-color: #072e33 !important;
+        height: 930px;
+        color: whitesmoke !important;
+        border-radius: 20px;
+        text-align: center;
+    }
+
+    .section_2 h1 {
+        font-weight: lighter;
+        padding-bottom: 10px;
+        border-bottom: 1px solid white;
+    }
+
+    .section_2 i {
+        font-size: 45px;
+    }
+
+    .section_2_icon {
+        margin: 10px 0px;
+        padding: 10px;
+    }
+
+    .svg_icon{
+        height: 50px;
+    }
+
+    /* section_3 */
+    .section_3 {
+        background-color: #072e33 !important;
+        height: 780px;
+        color: whitesmoke !important;
+        border-radius: 20px;
+        text-align: center;
+    }
+
+    .section_3 h1 {
+        letter-spacing: 2px;
+        font-weight: lighter;
+        padding: 10px 0px;
+        border-bottom: 1px solid white;
+    }
+
+    /* ssection_4 */
+    .section_4 {
+        background-color: #072e33 !important;
+        height: 610px;
+        color: whitesmoke !important;
+        border-radius: 20px;
+        text-align: center;
+    }
+
+    .section_4 h1 {
+        font-weight: lighter;
+        padding-bottom: 10px;
+        border-bottom: 1px solid white;
+    }
+
+    /* footer */
+    .footer {
+        background-color: #072e33 !important;
+        color: white;
+    }
+
+    .socal_icon a {
+        color: white;
+    }
+
+}

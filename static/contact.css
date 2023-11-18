@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css?family=Fertigo pro|Ubuntu|Audiowide ");
+* {
+    font-family: "Ubuntu", sans-serif;
+}
+*::selection{
+    background-color: #353431;
+    color:#b49275;
+}
+
+/* navbar */
+.navbar-brand {
+    letter-spacing: 8px;
+    font-family: "Audiowide", monospace;
+}
+.nav-link{
+    font-family: "Audiowide", monospace;
+}
+.offcanvas-title{
+    font-family: "Audiowide", monospace;
+}
+/* section */
+section{
+    background-color: white;
+    height: 450px;
+    color: #05161a;
+}
+form{
+    margin:5% 30%;
+    border: 2px solid black;
+    background-color: #212121;
+    border-radius: 20px;
+}
+form a{
+    margin-top: 20px;
+    padding: 5px 50px !important;
+    border-radius: 20px !important;
+}
+.btn{
+    padding: 5px 30px ;
+    border-radius: 20px;
+    margin-top: 25px;
+}
+
+/* footer */
+.socal_icon a{
+    color: #05161a; 
+    margin: 0px 10px;
+}
+
+/* meadia queries */
+@media screen and (max-width: 991px) {
+    /* navbar */
+    .navbar{
+        background-color: #072e33 !important;
+    }
+    .navbar-text,.navbar-brand,.nav-link{
+        color: white !important;
+    }
+    .navbar-brand{
+        letter-spacing: 4px;
+    }
+    .navbar-toggler{
+        font-size: 10px;
+    }
+    /* sidebar */
+    .offcanvas{
+        background-color: #072e33;
+        color: white;
+    }
+    .offcanvas-title{
+        letter-spacing: 3px;
+    }
+    .offcanvas-body{
+        border-top: 2px solid white;
+    }
+    .offcanvas-body li a{
+        color: white;
+    }
+    /* section */
+    section{
+        color: white;
+    }
+    form{
+        margin:70px 30px;
+        border: 2px solid black;
+        background-color: #072e33;
+        border-radius: 20px;
+    }
+    form a{
+        margin-top: 20px;
+        color: black !important;
+        background-color:gray !important;
+        padding: 5px 20px !important;
+        border-radius: 20px !important;
+    }
+    /* footer */
+    .footer {
+        background-color: #072e33 !important;
+        color: white;
+    }
+    .socal_icon a{
+        color:white;
+    }
+    
+}
+
+  
